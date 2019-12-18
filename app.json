@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/xshuo/xshuo",
+    "pages/mhua/mhua",
+    "pages/yisi/yisi",
+    "pages/duzi/duzi",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#E0FFFF",
+    "navigationBarTitleText": "糖糖快乐园",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#add",
+    "enablePullDownRefresh": false
+  },
+  "tabBar":{
+    "color":"#B0C4DE",
+    "selectedColor":"#D87093",
+    "backgroundColor":"#E0FFFF",
+    "list":[
+      {
+        "pagePath":"pages/xshuo/xshuo",
+        "text":"小说",
+        "iconPath": "/images/shu1.png",
+        "selectedIconPath": "/images/shu2.png"
+      },
+      {
+        "pagePath":"pages/mhua/mhua",
+        "text":"漫画",
+        "iconPath": "/images/dongm1.png",
+        "selectedIconPath": "/images/dongm2.png"
+      },
+      {
+        "pagePath":"pages/yisi/yisi",
+        "text":"影视",
+        "iconPath": "/images/yisi1.png",
+        "selectedIconPath": "/images/yisi2.png"
+      },
+      {
+        "pagePath":"pages/duzi/duzi",
+        "text":"段子",
+        "iconPath": "/images/duzi1.png",
+        "selectedIconPath": "/images/duzi2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

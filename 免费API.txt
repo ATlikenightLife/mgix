@@ -1,0 +1,30 @@
+https://api.apiopen.top/getJoke?page=1&count=100&type=video                        // 热门段子   count 获取的数量
+
+
+
+小说 API
+
+http://api.pingcc.cn/?xsname=      //搜索
+
+
+http://api.pingcc.cn/?xsurl1=    +url  //根据 搜索出来的 URL   拼接上去  得到 小说章节
+
+
+http://api.pingcc.cn/?xsurl2=   +url   //根据 章节里面的 URL  拼接上去  得到 章节里面的内容
+
+
+
+漫画 API
+http://api.pingcc.cn/?ysname=   //搜索
+
+http://api.pingcc.cn/?mhurl1= + url  //根据 搜索出来的 URL 拼接 上去  得到漫画章节
+
+
+http://api.pingcc.cn/?mhurl2= +url  //根据 点击当前的章节 URL 拼接   得到漫画章节内容
+
+
+影视  API 
+
+http://api.pingcc.cn/?ysname=   //搜索
+
+http://api.pingcc.cn/?ysurl= +url // 搜索出来的 url  拼接上  得到里面的内容

@@ -1,0 +1,33 @@
+<!--pages/xshuo/xshuo.wxml-->
+<!-- <import src="/template/lbt.wxml"/>
+<template is="LBTitem"></template> -->
+<!-- 轮播图 -->
+
+<view class="LBTmax">
+<swiper indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="#E0FFFF" circular="true">
+  <block wx:for="{{background}}" wx:key="*this" wx:for-index="i">
+    <swiper-item>
+      <view class="swiper-item {{item}}">
+        <image src="{{imgs[i]}}"></image>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="box">
+
+<view class="Meir"><rich-text>最近更新</rich-text></view>
+<!-- 渲染 -->
+<view class="Nroi" wx:for="{{gexlist}}" wx:key="*this" >
+<view class="Nroi_01">
+<view class="Nroi-img" ><image wx:if="{{gexlist.length>0}}" src="{{item.cover}}"></image></view>
+<view class="Nroi-zit">
+    <text class="nro-bt">{{item.name}}\n</text>
+    <text> \n</text>
+    <text class="nro-zxz">最新章：{{item.latest}}\n</text>
+    <text class="nro-time">更新时间：{{item.time}}</text>
+    </view>
+</view>
+</view>
+
+</view>

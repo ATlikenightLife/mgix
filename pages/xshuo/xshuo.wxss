@@ -1,0 +1,61 @@
+/* pages/xshuo/xshuo.wxss */
+
+.LBTmax{
+  border-bottom: 3rpx solid #E0FFFF;
+}
+swiper{height: 280rpx;}
+
+/* 轮播图的样式 */
+.demo1,.demo2,.demo3,.demo4,.demo5,.demo6{
+  width:100%;
+  height: 100%;
+}
+.swiper-item image{
+  width: 100%;height: 100%;
+}
+
+
+/* 最近更新 */
+.box{
+  width: 95%;margin: 0 auto;
+}
+.Meir{
+  width: 100%;height: 70rpx;margin-top: 10rpx;
+  /* border-bottom:3rpx solid #778899;  */
+}
+.Meir rich-text{
+  font-family: "STFangsong";
+  font-weight: 900;
+  font-size: 35rpx;color: #303133
+}
+.Nroi{
+  width: 100%; height: 200rpx;position: relative;
+  border-bottom: 1rpx solid #DCDCDC;
+}
+.Nroi_01{
+  width: 100%;height: 175rpx;
+}
+.Nroi-img{
+  width: 145rpx;height: 100%;float: left;
+  box-shadow: 1px 1px 8px 5px #DCDCDC, -10px 10px 10px 10px rgba(255,255,255,0.5);
+}
+.Nroi-img image{height: 100%;width: 100%;}
+.Nroi-zit{
+  width: 73%;height: 100%;float: left;
+  margin-left: 25rpx;
+}
+.nro-bt{
+  font-family: "STSong";
+  font-weight: 600;color: #606266;
+  font-size: 30rpx;
+}
+.nro-zxz{
+  font-family: "STHeiti";
+  font-size: 26rpx;color: #909399;
+  margin-top: 10rpx;
+}
+.nro-time{
+  font-family: "STHeiti";
+  font-size: 24rpx;color: #909399;
+}
+

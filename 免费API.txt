@@ -28,3 +28,12 @@ http://api.pingcc.cn/?mhurl2= +url  //¸ù¾İ µã»÷µ±Ç°µÄÕÂ½Ú URL Æ´½Ó   µÃµ½Âş»­ÕÂ½
 http://api.pingcc.cn/?ysname=   //ËÑË÷
 
 http://api.pingcc.cn/?ysurl= +url // ËÑË÷³öÀ´µÄ url  Æ´½ÓÉÏ  µÃµ½ÀïÃæµÄÄÚÈİ
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+https://github.com/ShanaMaid/oho-reader
+

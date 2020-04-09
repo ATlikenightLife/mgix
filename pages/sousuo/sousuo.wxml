@@ -1,0 +1,21 @@
+<view class="search">
+  <input class="search_input"  type="text"  value="" placeholder="搜索" bindconfirm="open" focus="{{adx}}" />
+</view>
+
+<view class="box">
+
+<view class="Meir"><rich-text>搜索结果</rich-text></view>
+<!-- 渲染 -->
+<view class="Nroi" wx:for="{{gexlist}}" wx:key="*this" >
+<view class="Nroi_01" bindtap="func" data-index='{{index}}'>
+<view class="Nroi-img" ><image src="{{item.cover}}"></image></view>
+<view class="Nroi-zit">
+    <text class="nro-bt">{{item.name}}\n</text>
+    <text class="nro-zxz">{{item.tag}}\n</text>
+    <text class="nro-zxz">最新章：{{item.num}}\n</text>
+    <text class="nro-time">更新时间：{{item.time}}</text>
+    </view>
+</view>
+</view>
+
+</view>

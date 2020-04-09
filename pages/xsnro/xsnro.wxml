@@ -1,0 +1,18 @@
+<view class="body" style="background: {{bgx}}">
+<view class="nro-kuang">
+<text class="nro-bt" style="color:{{bodyzt}}">{{xshbt}}</text>
+
+<text class="nro-xsnr" wx:for="{{xshnro}}" wx:key="*this" style="color:{{bodyzt}};font-size:{{fonts}}">　{{item}}\n</text>
+<view class="nro-ggg"></view>
+</view>
+<view class="footer" style="background: {{bgx}}">
+<text class="sangtop" bindtap="goshang" style="color:{{bodyzt}}">上一章</text>
+<text class="xiabottom" bindtap="goxia" style="color:{{bodyzt}}">下一章</text>
+
+<view class="taiyan" bindtap="rejian" style="color:{{bodyzt}}">日间☀</view>
+<view class="yueliang" bindtap="yejian">夜间★</view>
+<view class="jianz" style="color:{{bodyzt}}" bindtap="zitjian">A-</view>
+<view class="jiaz" style="color:{{bodyzt}}" bindtap="zitjia">A+</view>
+
+</view>
+</view>

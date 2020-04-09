@@ -13,28 +13,34 @@ Page({
     autoplay: true,
     interval: 2400,
     duration: 400,
-    gexlist:[]
+    gexlist:[],
+  },
+  func:function(e){
+    var index = e.currentTarget.dataset.index;
+    wx.navigateTo({
+      url: '/pages/xshxq/xshxq?id=' + this.data.gexlist[index].url,
+    })
   },
 
+  sousuo(){
+    wx.navigateTo({
+      url: '/pages/sousuo/sousuo',
+    })
+  } ,
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    let that = this;
     wx.request({
-      url: 'http://api.pingcc.cn/?xsname=',
+      url: 'http://api.pingcc.cn/?xsname=剑',
       success:res=>{
-        var arr=[]
-        for(var i=0;i<30;i++){
-        arr.push(res.data.list[i])
-        }
-        
-        this.setData({
-          gexlist: arr
+        that.setData({
+          gexlist:res.data.list,
         })
-        console.log(this.data.gexlist)
+        
       }
     })
-    
   },
 
   /**

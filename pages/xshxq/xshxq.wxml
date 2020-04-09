@@ -1,0 +1,34 @@
+<view id="car-height">
+
+<view class="heads">
+<view class="headmax">
+  <view class="head_img"><image src="{{XQdata.cover}}"></image></view>
+  <text class="head_bt">{{XQdata.name}}</text>
+  <text class="head_bx">{{XQdata.author}}  • {{XQdata.status}}  • {{XQdata.tag}}</text>
+</view>
+</view>
+<!-- 内容 -->
+
+<view class="Nro">
+  <view class="Nro_xiq">
+  <text class="Nro_xiqx">　　{{XQdata.introduce}}</text>
+  </view>
+
+  <view class="Nro_yu">
+  <text class="Nro_BT">最近更新</text><view class="Nro-bbb"><text class="Nro_btgx">{{XQlist[XQlist.length-1].num}}
+  <text class="Nro_time">更新时间：{{XQdata.time}} </text></text></view>
+  
+  </view>
+
+  <view class="Nro_mul">
+  <text class="Nro_mulbt">目录　</text>
+  <view class="Nro_zj" wx:for="{{XQlist}}" wx:key="*this" bindtap="nroxxx" data-index='{{index}}'>
+    <text class="Nro_zjzt">{{item.num}}</text>
+    </view>
+  </view>
+
+</view>
+<view class="gotop" hidden="{{gotop}}" bindtap="topx">∧</view>
+<view class="gobottom" bindtap="bottomx">∨</view>
+
+</view>

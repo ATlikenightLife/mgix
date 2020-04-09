@@ -1,0 +1,89 @@
+/* pages/xshxq/xshxq.wxss */
+.heads{
+  width: 100%;height: 370rpx;background:#6a6b6d;
+  background-size: cover;
+  /* filter: blur(60rpx); */
+}
+.headmax{position: relative;overflow: hidden;
+  width: 50%;height: 100%;margin: 0 auto;
+}
+.head_img{
+  width: 50%;margin: 10rpx auto; height: 250rpx;background: whitesmoke;
+}
+.head_img image{width: 100%;height: 100%;}
+.head_bt{
+  margin: 0 auto;display: block;text-align: center;
+  font-family: "STSong";font-weight: 600;color:white;
+  font-size: 40rpx;overflow: hidden;text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.head_bx{
+  margin: 0 auto;display: block;text-align: center;
+  font-family: "STKaiti";color: #C0C4CC;font-size: 28rpx;
+}
+/* 内容 */
+.Nro{
+  width: 95%;margin: 0 auto;position: relative;
+}
+.Nro_xiq{
+  width: 100%;padding-top:25rpx;
+  border-bottom: 1rpx solid #DCDCDC;padding-bottom:30rpx;
+}
+.Nro_xiqx{
+  font-family: "STFangsong";font-weight: 500;
+  font-size: 33rpx;color: #909399
+}
+
+
+.Nro_yu{
+  width: 100%;height: 100rpx;padding-top:30rpx; position: relative;
+  border-bottom: 1rpx solid #DCDCDC;
+}
+.Nro_BT{
+  font-family: "STFangsong";
+  font-weight: 900;float: left;
+  font-size: 35rpx;color: #303133
+}
+.Nro-bbb{
+  float: right;width: 75%;overflow: hidden;
+  text-overflow:ellipsis;white-space: nowrap;
+}
+.Nro_btgx{
+  font-family: "STFangsong";padding-top:5rpx; 
+  font-weight: 500;
+  font-size: 30rpx;color: #909399
+}
+.Nro_time{
+  font-family: "STFangsong";padding-top:5rpx; 
+  font-weight: 500;float: right;padding-right:30rpx; 
+  font-size: 28rpx;color: #909399
+}
+.Nro_mul{
+  width: 100%;padding-top:25rpx;position: relative;
+}
+.Nro_mulbt{
+  font-family: "STFangsong";font-weight: 900;
+  font-size: 35rpx;color: #303133
+}
+.Nro_zj{margin-top: 20rpx;width: 100%;
+height: 60rpx;padding-top:30rpx;overflow: hidden;
+  text-overflow:ellipsis;white-space: nowrap;
+  border-bottom: 1rpx solid rgb(228, 228, 228);
+}
+.Nro_zjzt{
+  font-family: "STFangsong";
+  font-weight: 900;float: left;
+  font-size: 33rpx;color: #606266
+}
+
+.gotop{
+  width: 100rpx;height: 100rpx;
+  position: fixed;bottom: 250rpx;right: 30rpx;
+  font-size: 100rpx;text-align: center;padding-bottom: 30rpx;
+}
+
+.gobottom{
+  width: 100rpx;height: 100rpx;
+  position: fixed;bottom: 60rpx;right: 30rpx;
+  font-size: 100rpx;text-align: center;padding-bottom: 30rpx;
+}

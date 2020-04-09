@@ -1,2 +1,25 @@
 <!--pages/duzi/duzi.wxml-->
-<text>pages/duzi/duzi.wxml</text>
+
+<view class="head_BT">
+<text class="headbt">每日百段　　❤</text>
+</view>
+<view class="box">
+  <view class="SP" wx:for="{{admlist}}" wx:key="*this" wx:for-index="index"><view class="SP_bb">
+    <view class="SP_nro">
+    <video  controls src="{{item.video}}" poster-for-crawler="{{item.thumbnail}}" 
+    class="video_video" show-fullscreen-btn id="video{{index}}" bindtap="video_play"></video>
+    </view>
+    <view class="SP_bt">
+    <text class="SP_btnro">　　{{item.text}}</text>
+    </view>
+     <view class="SP_mix">
+     <view class="toux-img"><image src="{{item.header}}"></image></view>
+    <text class="yhname">{{item.name}}</text>
+    <text class="getime">{{item.passtime}}</text>
+
+     </view>
+
+  </view></view> 
+</view>
+
+

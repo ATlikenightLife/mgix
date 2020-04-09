@@ -1,4 +1,21 @@
 /* pages/xshuo/xshuo.wxss */
+/* 搜索框 */
+.search{
+    height: 70rpx;
+    padding: 10rpx;
+    background-color: #E0FFFF;
+}
+.search_input{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 40rpx;
+    color: #666;
+    display: flex;
+    text-align: center;
+}
+
 
 .LBTmax{
   border-bottom: 3rpx solid #E0FFFF;
@@ -43,11 +60,17 @@ swiper{height: 280rpx;}
 .Nroi-zit{
   width: 73%;height: 100%;float: left;
   margin-left: 25rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
 .nro-bt{
   font-family: "STSong";
   font-weight: 600;color: #606266;
   font-size: 30rpx;
+  /* overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap; */
 }
 .nro-zxz{
   font-family: "STHeiti";

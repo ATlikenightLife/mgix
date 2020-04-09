@@ -1,2 +1,12 @@
-<!--pages/mhua/mhua.wxml-->
-<text>pages/mhua/mhua.wxml</text>
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+    <!-- <block wx:else> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{admin.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{admin.nickName}}</text>
+    <!-- </block> -->
+  </view>
+  <view class="usermotto">
+    <text class="user-motto"></text>
+  </view>
+</view>

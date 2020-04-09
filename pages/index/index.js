@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '这是你的个人主页，空空如也！',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -19,7 +19,7 @@ Page({
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
-        hasUserInfo: true
+        hasUserInfo: true,
       })
     } else if (this.data.canIUse){
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
@@ -39,6 +39,7 @@ Page({
             userInfo: res.userInfo,
             hasUserInfo: true
           })
+          console.log(res.userInfo)
         }
       })
     }
@@ -52,3 +53,5 @@ Page({
     })
   }
 })
+module.exports.app=app
+
